@@ -8,10 +8,12 @@
 > demo2为includeAll Example
 
 ## 使用方式
+
 #### demo1
 进入demo1目录
 * 更新sql命令：``` mvn liquibase:update ```
 * 回滚到指定tag命令：``` mvn liquibase:rollback -Dliquibase.rollbackTag=v2 ```
+
 #### demo2
 进入demo2执行目录
 * 更新sql命令：``` mvn liquibase:update ```
